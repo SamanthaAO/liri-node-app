@@ -2,8 +2,8 @@
 
  var axios = require("axios");
  var Spotify = require('node-spotify-api');
-
  var moment = require('moment');
+ var fs = require("fs");
 
  moment();
 
@@ -24,25 +24,27 @@ var action = process.argv[2];
 var input = process.argv[3];
 
 //depending on user input runs different functions
-switch (action) {
-    case "concert-this":
-    concertThis();
-    break;
+function callSwitch(){
+  switch (action) {
+      case "concert-this":
+      concertThis();
+      break;
 
-    case "spotify-this-song":
-    spotifyThisSong();
-    break;
+      case "spotify-this-song":
+      spotifyThisSong();
+      break;
 
-    case "movie-this":
-    movieThis();
-    break;
+      case "movie-this":
+      movieThis();
+      break;
 
-    // case "do-what-it-says":
-    // doWhatItSays();
-    // break;
+      case "do-what-it-says":
+      doWhatItSays();
+      break;
+  }
 }
+callSwitch();
 
-//gana use a switch here!!!
 // concert-this
 function concertThis(){
    var concertQueryURL = "https://rest.bandsintown.com/artists/" + input + "/events?app_id=codingbootcamp"
@@ -118,6 +120,7 @@ function movieThis(){
 axios.get(movieQueryURL).then(
   function(response) {
 
+    addToLog();
     console.log(response.data.Title);
     console.log(response.data.Year);
     console.log("The movie's IMDB rating is: " + response.data.imdbRating);
@@ -125,6 +128,7 @@ axios.get(movieQueryURL).then(
     console.log(response.data.Language);
     console.log(response.data.Plot);
     console.log(response.data.Actors);
+    console.log();
 
     
   })
@@ -152,7 +156,30 @@ axios.get(movieQueryURL).then(
 
 
 
-// // do-what-it-says
-// function doWhatItSays(){
+// do-what-it-says
+function doWhatItSays(){
 
-// }
+  fs.readFile("random.txt", "utf8", function(err, data) {
+    if (err) {
+      return console.log(err);
+    }
+
+    data = data.split(",");
+    action = data[0];
+    input = data[1];
+    console.log(action);
+    console.log(input);
+    callSwitch();
+
+  });
+}
+
+//outputs data to log.txt
+function addToLog(){
+  fs.appendFile("log.txt", "\n" + action +" : "+ input, function(err) {
+    if (err) {
+      return console.log(err);
+    }
+
+  });
+}
