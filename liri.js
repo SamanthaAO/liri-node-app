@@ -5,8 +5,6 @@
  var moment = require('moment');
  var fs = require("fs");
 
- moment();
-
 //read and set any environment variables with the dotenv package
 require("dotenv").config();
 
@@ -41,9 +39,25 @@ function callSwitch(){
       case "do-what-it-says":
       doWhatItSays();
       break;
+
+      case "instructions":
+      instructions();
+      break;
   }
 }
 callSwitch();
+
+//displays instructions
+function instructions(){
+  console.log("Welcome the LIRI!!!!!!! To get started type one of the following comands followed by a space and then your chosen media surrounded by quotes.");
+  console.log("\n *** concert-this 'Band Name' ***\n Will display the venue, location, and date of upcoming shows for the band that you have entered \n");
+  console.log("\n *** spotify-this-song 'Song Title' ***\n Will display the name of the song you entered along with artists that have written a song by that name, the album that song was on, and a preview URL of the song.\n");
+  console.log("\n *** movie-this 'Movie Title' ***\n Will display the anme of the movie that you entered, the year it was made, the IMDB and Rotten Tomato ratings,  the country and language it was made in, and the characters, and plot.\n");
+  console.log("\n *** do-what-it-says ***\n Will display a random comand with a random media type.\n")
+}
+
+
+
 
 // concert-this
 function concertThis(){
@@ -52,7 +66,10 @@ function concertThis(){
    axios.get(concertQueryURL).then(
   function(response) {
 
+    //console.log(response.data);
 response.data.forEach(function(element, num){
+
+  
     console.log(num+1 +" : " +element.venue.name);
     console.log(element.venue.city +", "+ element.venue.country);
     console.log(moment(element.datetime).format("MM/DD/YYYY"));
@@ -91,17 +108,19 @@ function spotifyThisSong(){
         if (err) {
           return console.log('Error occurred: ' + err);
         }
-       
+
+    console.log("The song information for "+ input + "is: "); 
+
     data.tracks.items.forEach(function(element, num){
-      console.log(num+1 +" : " + element.name)
+      console.log(num+1 +". \n Track Name:" + element.name)
 
       var artists = element.artists.map(function(artist){
         return artist.name;
       });
 
-      console.log(artists.join(", "));
-      console.log(element.album.name); 
-      console.log(element.preview_url);
+      console.log("Artists:" + artists.join(", "));
+      console.log("Album:" + element.album.name); 
+      console.log("Preview URL:" + element.preview_url);
       console.log();
 
     })
@@ -125,6 +144,7 @@ axios.get(movieQueryURL).then(
     console.log(response.data.Year);
     console.log("The movie's IMDB rating is: " + response.data.imdbRating);
     console.log(response.data.Ratings[1].Source +" "+response.data.Ratings[1].Value);
+    //add country!!!!!!!!!
     console.log(response.data.Language);
     console.log(response.data.Plot);
     console.log(response.data.Actors);
@@ -171,6 +191,8 @@ function doWhatItSays(){
     console.log(input);
     callSwitch();
 
+
+//create object that is array within arrays of random items and then have function call random arrays
   });
 }
 
