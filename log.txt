@@ -19,3 +19,170 @@ Title: The Princess Bride Year: 1987 IMDB rating: 8.1 Rotten Tomatoes rating: 97
 
 The movie information for the matrix is: 
 Title: The Matrix Year: 1999 IMDB rating: 8.7 Rotten Tomatoes rating: 88% Country: USA Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers. Language: English Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving 
+
+The movie information for the matrix is: 
+Title: The Matrix Year: 1999 IMDB rating: 8.7 Country: USA Rotten Tomatoes rating: 88% Language: English Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers. Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving 
+undefineddo-what-it-says
+The movie information for "Princess Bride" is: IMDB rating: 8.1 Country: USA Language: English Plot: While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love. Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest 
+Rotten Tomatoes rating: 97% Year: 1987 
+Title: The Princess Bride 
+do-what-it-says
+The movie information for "Princess Bride" is: 
+Title: The Princess Bride Year: 1987 IMDB rating: 8.1 Country: USA Rotten Tomatoes rating: 97% Language: English Plot: While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love. Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest 
+
+do-what-it-says
+movie-this: the matrix
+The movie information for the matrix is: 
+Title: The Matrix Year: 1999 IMDB rating: 8.7 Rotten Tomatoes rating: 88% Country: USA Language: English Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers. Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving 
+
+movie-this: pojemon
+movie-this: pokemon
+movie-this: wedding crashers
+Title: Wedding Crashers 
+The movie information for wedding crashers is: Year: 2005 IMDB rating: 7.0 Language: English Rotten Tomatoes rating: 75% 
+Actors: Owen Wilson, Vince Vaughn, Christopher Walken, Rachel McAdams Country: USA Plot: John Beckwith and Jeremy Grey, a pair of committed womanizers who sneak into weddings to take advantage of the romantic tinge in the air, find themselves at odds with one another when John meets and falls for Claire Cleary. 
+movie-this: princess bride
+The movie information for princess bride is: 
+Title: The Princess Bride Year: 1987 Language: English Plot: While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love. Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest 
+Rotten Tomatoes rating: 97% Country: USA IMDB rating: 8.1 
+***movie-this: princess bride***
+The movie information for princess bride is: 
+Title: The Princess Bride Year: 1987 IMDB rating: 8.1 Plot: While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love. Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest 
+Rotten Tomatoes rating: 97% Country: USA Language: English 1.Venue: FedEx FieldLocation: Landover, United StatesDate: 07/03/20192.
+
+3.Venue: Mercedes-Benz SuperdomeLocation: New Orleans, United StatesDate: 07/14/2019
+4.Venue: TIAA Bank FieldLocation: Jacksonville, United StatesDate: 07/19/2019
+5.Venue: Lincoln Financial FieldLocation: Philadelphia, United StatesDate: 07/23/2019
+6.Venue: NRG ArenaLocation: Houston, United StatesDate: 07/27/2019
+7.Venue: MetLife StadiumLocation: East Rutherford, United StatesDate: 08/01/2019
+8.Venue: MetLife StadiumLocation: East Rutherford, United StatesDate: 08/05/2019
+9.Venue: Broncos Stadium at Mile HighVenue: Gillette StadiumDate: 08/10/2019
+10.Venue: CenturyLink FieldLocation: Seattle, United StatesDate: 08/14/2019
+11.Venue: Levi's StadiumLocation: Santa Clara, United StatesDate: 08/18/2019
+12.Date: 07/07/2019Location: Pasadena, United StatesLocation: Foxborough, United States
+13.Date: 08/22/2019Venue: Rose Bowl StadiumDate: 08/26/2019
+Location: Glendale, United StatesVenue: Hard Rock StadiumLocation: Miami Gardens, United StatesDate: 08/31/2019
+Venue: State Farm Stadium14.Location: Denver, United States1.Venue: FedEx FieldLocation: Landover, United StatesDate: 07/03/2019
+2.Venue: Gillette StadiumDate: 07/07/2019
+3.Venue: Mercedes-Benz SuperdomeDate: 07/14/2019
+Venue: TIAA Bank FieldLocation: Jacksonville, United StatesDate: 07/19/2019
+5.Venue: Lincoln Financial FieldLocation: Philadelphia, United StatesDate: 07/23/2019
+6.Venue: NRG ArenaLocation: Houston, United StatesDate: 07/27/2019
+7.Venue: MetLife StadiumLocation: East Rutherford, United StatesDate: 08/01/2019
+8.Venue: MetLife StadiumLocation: East Rutherford, United StatesDate: 08/05/2019
+9.Venue: Broncos Stadium at Mile HighLocation: Denver, United StatesDate: 08/10/2019
+10.Venue: CenturyLink FieldLocation: Seattle, United StatesDate: 08/14/2019
+11.Venue: Levi's StadiumLocation: Santa Clara, United StatesDate: 08/18/2019
+12.Venue: Rose Bowl StadiumLocation: Pasadena, United StatesDate: 08/22/2019
+13.Venue: State Farm StadiumLocation: Glendale, United StatesDate: 08/26/2019
+14.Venue: Hard Rock StadiumLocation: Miami Gardens, United StatesDate: 08/31/2019
+4.Location: Foxborough, United StatesLocation: New Orleans, United States1.
+2.Venue: Gillette StadiumLocation: Foxborough, United StatesDate: 07/07/2019
+3.Venue: Mercedes-Benz SuperdomeLocation: New Orleans, United StatesDate: 07/14/2019
+4.Venue: TIAA Bank FieldLocation: Jacksonville, United StatesDate: 07/19/2019
+5.Date: 07/03/2019Venue: FedEx FieldDate: 07/23/2019
+6.Venue: NRG ArenaVenue: Lincoln Financial FieldDate: 07/27/2019Location: Landover, United States7.Location: Philadelphia, United States
+Location: Houston, United States
+8.Venue: MetLife StadiumLocation: East Rutherford, United StatesDate: 08/05/2019
+9.Venue: Broncos Stadium at Mile HighDate: 08/01/2019Date: 08/10/2019
+Location: Denver, United StatesVenue: MetLife StadiumLocation: Seattle, United StatesDate: 08/14/2019
+11.Venue: Levi's StadiumLocation: Santa Clara, United StatesDate: 08/18/201910.12.Venue: Rose Bowl StadiumLocation: Pasadena, United StatesDate: 08/22/2019
+13.Venue: CenturyLink FieldLocation: East Rutherford, United StatesDate: 08/26/2019
+14.Venue: Hard Rock StadiumLocation: Miami Gardens, United StatesDate: 08/31/2019
+Venue: State Farm StadiumLocation: Glendale, United States
+
+***concert-this: the rolling stones***Venue: FedEx FieldDate: 07/03/2019
+Location: Landover, United StatesVenue: Gillette StadiumLocation: Foxborough, United StatesDate: 07/07/2019
+
+***concert-this: the rolling stones***3.Venue: Mercedes-Benz SuperdomeLocation: New Orleans, United StatesDate: 07/14/2019
+***concert-this: the rolling stones***
+4.Venue: TIAA Bank FieldLocation: Jacksonville, United StatesDate: 07/19/2019
+***concert-this: the rolling stones***
+5.Venue: Lincoln Financial FieldLocation: Philadelphia, United StatesDate: 07/23/2019
+
+***concert-this: the rolling stones***6.Venue: NRG ArenaLocation: Houston, United StatesDate: 07/27/2019
+***concert-this: the rolling stones***
+7.Venue: MetLife StadiumLocation: East Rutherford, United StatesDate: 08/01/2019
+
+***concert-this: the rolling stones***8.Venue: MetLife StadiumLocation: East Rutherford, United StatesDate: 08/05/2019
+
+***concert-this: the rolling stones***9.Venue: Broncos Stadium at Mile HighLocation: Denver, United StatesDate: 08/10/2019
+
+***concert-this: the rolling stones***10.Venue: CenturyLink FieldLocation: Seattle, United StatesDate: 08/14/2019
+***concert-this: the rolling stones***
+11.Venue: Levi's StadiumLocation: Santa Clara, United StatesDate: 08/18/2019
+
+***concert-this: the rolling stones***12.Venue: Rose Bowl StadiumLocation: Pasadena, United StatesDate: 08/22/2019
+
+***concert-this: the rolling stones***13.Venue: State Farm StadiumLocation: Glendale, United StatesDate: 08/26/2019
+***concert-this: the rolling stones***
+14.Venue: Hard Rock StadiumLocation: Miami Gardens, United StatesDate: 08/31/2019
+2.
+***concert-this: the rolling stones***1.
+***concert-this: the rolling stones***Location: Landover, United StatesVenue: FedEx Field2.Venue: Gillette StadiumLocation: Foxborough, United StatesDate: 07/07/2019
+3.Venue: Mercedes-Benz SuperdomeLocation: New Orleans, United StatesDate: 07/14/2019
+4.Venue: TIAA Bank FieldLocation: Jacksonville, United StatesDate: 07/19/2019
+5.Venue: Lincoln Financial FieldLocation: Philadelphia, United StatesDate: 07/23/2019
+6.Venue: NRG ArenaLocation: Houston, United StatesDate: 07/27/20191.7.Venue: MetLife StadiumLocation: East Rutherford, United StatesDate: 08/01/2019
+8.Venue: MetLife StadiumLocation: East Rutherford, United StatesDate: 08/05/2019Date: 07/03/20199.Venue: Broncos Stadium at Mile HighLocation: Denver, United StatesDate: 08/10/2019
+10.Venue: CenturyLink FieldLocation: Seattle, United StatesDate: 08/14/2019
+11.Venue: Levi's StadiumLocation: Santa Clara, United StatesDate: 08/18/2019
+
+Venue: Rose Bowl StadiumLocation: Pasadena, United States12.
+13.Date: 08/22/2019
+
+
+14.Venue: Hard Rock StadiumLocation: Miami Gardens, United StatesDate: 08/31/2019
+Venue: State Farm StadiumLocation: Glendale, United StatesDate: 08/26/2019
+***concert-this: skrillex***1.Venue: Ultra Korea [June 7-9]
+
+Venue: Ultra Singapore [June 8-9]Location: Singapore, SingaporeDate: 06/09/2019
+
+3.Venue: Paradiso Festival [June 14-15]Location: George, United StatesDate: 06/14/2019
+
+4.Venue: Kaos @ Palms Casino ResortLocation: Las Vegas, United StatesDate: 06/21/2019
+
+5.Venue: Kaos [SOAK Sundays] @ Palms Casino ResortLocation: Las Vegas, United StatesDate: 06/30/2019
+
+6.Venue: Kaos @ Palms Casino ResortLocation: Las Vegas, United StatesDate: 07/07/2019
+
+7.Venue: Kaos @ Palms Casino ResortLocation: Las Vegas, United StatesDate: 07/18/2019
+
+8.Venue: Kaos @ Palms Casino ResortLocation: East Las Vegas, United StatesDate: 07/21/2019
+
+9.Venue: Kaos @ Palms Casino ResortLocation: Seoul, South KoreaDate: 07/26/2019
+
+10.Venue: VELD Music Festival [August 3-4]Location: Toronto, CanadaDate: 08/03/2019
+
+11.Venue: DOG BLOOD @ Electric Zoo [Aug 30 - Sept 1]Location: New York, United StatesDate: 08/30/2019
+
+2.Location: Las Vegas, United StatesDate: 06/08/2019
+
+***concert-this: skrillex***1.Venue: Ultra Korea [June 7-9]Location: Seoul, South KoreaDate: 06/08/2019
+2.Venue: Ultra Singapore [June 8-9]Location: Singapore, SingaporeDate: 06/09/2019
+3.Venue: Paradiso Festival [June 14-15]Location: George, United StatesDate: 06/14/2019
+4.Venue: Kaos @ Palms Casino ResortLocation: Las Vegas, United States
+Date: 06/21/20195.Venue: Kaos [SOAK Sundays] @ Palms Casino ResortLocation: Las Vegas, United StatesDate: 06/30/2019
+6.Venue: Kaos @ Palms Casino ResortLocation: Las Vegas, United StatesDate: 07/07/2019
+7.Venue: Kaos @ Palms Casino ResortLocation: Las Vegas, United StatesDate: 07/18/2019
+8.Venue: Kaos @ Palms Casino ResortLocation: East Las Vegas, United StatesDate: 07/21/2019
+9.Venue: Kaos @ Palms Casino ResortLocation: Las Vegas, United StatesDate: 07/26/2019
+10.Venue: VELD Music Festival [August 3-4]Location: Toronto, CanadaDate: 08/03/2019
+11.Venue: DOG BLOOD @ Electric Zoo [Aug 30 - Sept 1]Location: New York, United StatesDate: 08/30/2019
+
+
+***concert-this: the rolling stones***Venue: FedEx Field1.Location: Landover, United StatesDate: 07/03/2019
+2.Venue: Gillette StadiumLocation: Foxborough, United StatesDate: 07/07/2019
+3.Venue: Mercedes-Benz SuperdomeLocation: New Orleans, United StatesDate: 07/14/2019
+4.Venue: TIAA Bank FieldLocation: Jacksonville, United StatesDate: 07/19/20195.
+Location: Philadelphia, United States
+Venue: NRG ArenaLocation: Houston, United StatesDate: 07/27/2019
+7.Venue: MetLife StadiumLocation: East Rutherford, United StatesDate: 08/01/2019
+8.Venue: MetLife StadiumLocation: East Rutherford, United StatesDate: 08/05/2019
+9.Venue: Broncos Stadium at Mile HighLocation: Denver, United StatesDate: 08/10/2019
+10.Venue: CenturyLink FieldLocation: Seattle, United StatesDate: 08/14/2019
+11.Venue: Levi's StadiumLocation: Santa Clara, United StatesDate: 08/18/2019
+12.Venue: Rose Bowl StadiumLocation: Pasadena, United StatesDate: 08/22/2019
+13.Venue: State Farm StadiumLocation: Glendale, United StatesDate: 08/26/2019
+14.Venue: Hard Rock StadiumLocation: Miami Gardens, United StatesDate: 08/31/2019
+Date: 07/23/2019Venue: Lincoln Financial Field6.

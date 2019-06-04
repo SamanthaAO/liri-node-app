@@ -62,22 +62,26 @@ function instructions(){
 
 // concert-this
 function concertThis(){
-  console.log(input + "input")
+  
    var concertQueryURL = "https://rest.bandsintown.com/artists/" + input + "/events?app_id=codingbootcamp"
 
    axios.get(concertQueryURL).then(
   function(response) {
-
+    addToLog("\n\n***concert-this: " + input + "***");
     //console.log(response.data);
 response.data.forEach(function(element, num){
 
-  
-    console.log(num+1 +".")
-    console.log("Venue: " +element.venue.name);
-    console.log("Location: " + element.venue.city +", "+ element.venue.country);
-    console.log("Date: " + moment(element.datetime).format("MM/DD/YYYY"));
-    console.log();
+  var concertArray = [num+1 +".",
+  "Venue: " + element.venue.name,
+  "Location: " + element.venue.city +", "+ element.venue.country,
+  "Date: " + moment(element.datetime).format("MM/DD/YYYY"),
+  "\n"]
 
+
+  concertArray.forEach(function(x){
+    console.log(x);
+    addToLog(x);
+  })
 
 })
     
@@ -143,6 +147,7 @@ function movieThis(){
 axios.get(movieQueryURL).then(
   function(response) {
 
+    addToLog("\n\n***movie-this: " + input + "***");
     var movieArray = ["\nThe movie information for "+ input + " is: ",
     "\nTitle: " + response.data.Title + " ", "Year: " +response.data.Year + " ",
     "IMDB rating: " + response.data.imdbRating + " ", response.data.Ratings[1].Source +" rating: "+response.data.Ratings[1].Value + " ",
@@ -151,9 +156,9 @@ axios.get(movieQueryURL).then(
     "Actors: " + response.data.Actors + " ",
     "\n"]
     
-    movieArray.forEach(function(element){
-      console.log(element);
-      addToLog(element);
+    movieArray.forEach(function(x){
+      console.log(x);
+      addToLog(x);
     })
     
   })
@@ -192,8 +197,8 @@ function doWhatItSays(){
     var randomNum = Math.floor(Math.random() * Math.floor(data.length/2))
     action = data[randomNum].trim();
     input = data[randomNum + data.length/2].trim();
-    console.log(action);
-    console.log(input);
+    addToLog("\n\n***do-what-it-says***");
+
     callSwitch();
 
 
@@ -202,8 +207,8 @@ function doWhatItSays(){
 }
 
 //outputs data to log.txt
-function addToLog(element){
-  fs.appendFile("log.txt", element, function(err) {
+function addToLog(x){
+  fs.appendFile("log.txt", x, function(err) {
     if (err) {
       return console.log(err);
     }
