@@ -23,6 +23,7 @@ var input = process.argv[3];
 
 //depending on user input runs different functions
 function callSwitch(){
+  
   switch (action) {
       case "concert-this":
       concertThis();
@@ -187,10 +188,10 @@ function doWhatItSays(){
     }
 
     data = data.split(",");
-    action = data[0];
-    input = data[1];
-    console.log(action);
-    console.log(input);
+    action = data[0].trim();
+    input = data[1].trim();
+    //console.log(action);
+    //console.log(input);
     callSwitch();
 
 
@@ -200,7 +201,7 @@ function doWhatItSays(){
 
 //outputs data to log.txt
 function addToLog(){
-  fs.appendFile("log.txt", "\n" + action +" : "+ input, function(err) {
+  fs.appendFile("log.txt", "\n" + action +"-"+ input, function(err) {
     if (err) {
       return console.log(err);
     }
