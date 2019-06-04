@@ -77,9 +77,9 @@ function concertThis(){
 response.data.forEach(function(element, num){
 
   var concertArray = [num+1 +".",
-  "Venue: " + element.venue.name,
-  "Location: " + element.venue.city +", "+ element.venue.country,
-  "Date: " + moment(element.datetime).format("MM/DD/YYYY"),
+  "Venue: " + element.venue.name + " ",
+  "Location: " + element.venue.city +", "+ element.venue.country + " ",
+  "Date: " + moment(element.datetime).format("MM/DD/YYYY") + " ",
   "\n"]
 
 
@@ -117,16 +117,14 @@ response.data.forEach(function(element, num){
 // // spotify-this-song
 function spotifyThisSong(){
 
-  var limit = 5;
 
   if(input === undefined){
     console.log("For better results try entering a song in 'quotes' after the command. But for now view the results for 'The Sign' by Ace of Base");
     input = "The Sign ace of base";
-    limit = 1;
   }
 
 
-    spotify.search({ type: 'track', query: input, limit: limit }, function(err, data) {
+    spotify.search({ type: 'track', query: input, limit: 1 }, function(err, data) {
         if (err) {
           return console.log('Error occurred: ' + err);
         }
@@ -141,11 +139,10 @@ function spotifyThisSong(){
         return artist.name;
       });
 
-      var songArray = [num+1 +".", 
-      "Track Name: " + element.name,
-      "Artist/Artists: " + artists.join(", "),
-      "Album: " + element.album.name,
-      "Preview URL: " + element.preview_url,
+      var songArray = ["Track Name: " + element.name,
+      "Artist/Artists: " + artists.join(", ") + " ",
+      "Album: " + element.album.name + " ",
+      "Preview URL: " + element.preview_url + " ",
       "\n"]
       
       songArray.forEach(function(x){
