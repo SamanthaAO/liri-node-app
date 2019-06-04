@@ -62,6 +62,7 @@ function instructions(){
 
 // concert-this
 function concertThis(){
+  console.log(input + "input")
    var concertQueryURL = "https://rest.bandsintown.com/artists/" + input + "/events?app_id=codingbootcamp"
 
    axios.get(concertQueryURL).then(
@@ -111,7 +112,7 @@ function spotifyThisSong(){
           return console.log('Error occurred: ' + err);
         }
 
-    console.log("The song information for "+ input + "is: "); 
+    console.log("The song information for "+ input + " is: "); 
 
     data.tracks.items.forEach(function(element, num){
       console.log(num+1 +".");
@@ -186,12 +187,15 @@ function doWhatItSays(){
     if (err) {
       return console.log(err);
     }
-
     data = data.split(",");
-    action = data[0].trim();
-    input = data[1].trim();
-    //console.log(action);
-    //console.log(input);
+    //console.log("data "+ data.length);
+    var randomNum = Math.floor(Math.random() * Math.floor(data.length/2))
+    //console.log("random Num "+ randomNum);
+    //console.log("random Num 2 "+ data.length/2)
+    action = data[randomNum].trim();
+    input = data[randomNum + data.length/2].trim();
+    console.log(action);
+    console.log(input);
     callSwitch();
 
 
