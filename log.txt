@@ -1,7 +1,21 @@
-princess bridemovie-this : princess bride
-movie-this : princess bride
-movie-this : the matrix
-movie-this : the matrix
-movie-this : the matrix
-movie-this : the matrix
-movie-this-"Princess Bride"
+
+The movie information for princess bride is: IMDB rating: 8.1 
+Year: 1987 Country: USA Language: English Plot: While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love. 
+Title: The Princess Bride Rotten Tomatoes rating: 97% Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest 
+
+The movie information for princess bride is: 
+Title: The Princess Bride 
+Year: 1987 IMDB rating: 8.1 Rotten Tomatoes rating: 97% Country: USA Language: English Plot: While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love. Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest 
+
+The movie information for princess bride is: 
+Year: 1987 
+Title: The Princess Bride Rotten Tomatoes rating: 97% Language: English Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest 
+Country: USA IMDB rating: 8.1 Plot: While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love. 
+The movie information for princess bride is: Title: The Princess Bride Year: 1987 IMDB rating: 8.1 Language: English Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest Rotten Tomatoes rating: 97% Plot: While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love. Country: USA 
+The movie information for princess bride is: Title: The Princess Bride IMDB rating: 8.1 Rotten Tomatoes rating: 97% Language: English Year: 1987 
+Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest Country: USA Plot: While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love. 
+The movie information for princess bride is: 
+Title: The Princess Bride Year: 1987 IMDB rating: 8.1 Rotten Tomatoes rating: 97% Country: USA Language: English Plot: While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love. Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest 
+
+The movie information for the matrix is: 
+Title: The Matrix Year: 1999 IMDB rating: 8.7 Rotten Tomatoes rating: 88% Country: USA Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers. Language: English Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving 

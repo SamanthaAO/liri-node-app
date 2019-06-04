@@ -143,17 +143,18 @@ function movieThis(){
 axios.get(movieQueryURL).then(
   function(response) {
 
-    addToLog();
-    console.log("Title: " + response.data.Title);
-    console.log("Year: " +response.data.Year);
-    console.log("IMDB rating: " + response.data.imdbRating);
-    console.log(response.data.Ratings[1].Source +" rating: "+response.data.Ratings[1].Value);
-    console.log("Country: " + response.data.Country);
-    console.log("Language: " + response.data.Language);
-    console.log("Plot: " + response.data.Plot);
-    console.log("Actors: " + response.data.Actors);
-    console.log();
-
+    var movieArray = ["\nThe movie information for "+ input + " is: ",
+    "\nTitle: " + response.data.Title + " ", "Year: " +response.data.Year + " ",
+    "IMDB rating: " + response.data.imdbRating + " ", response.data.Ratings[1].Source +" rating: "+response.data.Ratings[1].Value + " ",
+    "Country: " + response.data.Country + " ",
+    "Language: " + response.data.Language + " ", "Plot: " + response.data.Plot + " ",
+    "Actors: " + response.data.Actors + " ",
+    "\n"]
+    
+    movieArray.forEach(function(element){
+      console.log(element);
+      addToLog(element);
+    })
     
   })
   .catch(function(error) {
@@ -188,10 +189,7 @@ function doWhatItSays(){
       return console.log(err);
     }
     data = data.split(",");
-    //console.log("data "+ data.length);
     var randomNum = Math.floor(Math.random() * Math.floor(data.length/2))
-    //console.log("random Num "+ randomNum);
-    //console.log("random Num 2 "+ data.length/2)
     action = data[randomNum].trim();
     input = data[randomNum + data.length/2].trim();
     console.log(action);
@@ -204,8 +202,8 @@ function doWhatItSays(){
 }
 
 //outputs data to log.txt
-function addToLog(){
-  fs.appendFile("log.txt", "\n" + action +"-"+ input, function(err) {
+function addToLog(element){
+  fs.appendFile("log.txt", element, function(err) {
     if (err) {
       return console.log(err);
     }
