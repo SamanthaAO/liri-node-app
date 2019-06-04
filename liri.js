@@ -62,12 +62,17 @@ function instructions(){
 
 // concert-this
 function concertThis(){
-  
+  if(input === undefined){
+    console.log("For better results try entering an artist in 'quotes' after the command. But for now view the results for 'Ariana Grande'")
+    input = "Ariana Grande"
+  }
+
    var concertQueryURL = "https://rest.bandsintown.com/artists/" + input + "/events?app_id=codingbootcamp"
 
    axios.get(concertQueryURL).then(
   function(response) {
     addToLog("\n\n***concert-this: " + input + "***");
+    console.log("The concert information for "+ input + " is: "); 
     //console.log(response.data);
 response.data.forEach(function(element, num){
 
@@ -111,25 +116,43 @@ response.data.forEach(function(element, num){
 
 // // spotify-this-song
 function spotifyThisSong(){
-    spotify.search({ type: 'track', query: input }, function(err, data) {
+
+  var limit = 5;
+
+  if(input === undefined){
+    console.log("For better results try entering a song in 'quotes' after the command. But for now view the results for 'The Sign' by Ace of Base");
+    input = "The Sign ace of base";
+    limit = 1;
+  }
+
+
+    spotify.search({ type: 'track', query: input, limit: limit }, function(err, data) {
         if (err) {
           return console.log('Error occurred: ' + err);
         }
 
+    addToLog("\n\n***spotify-this-song: " + input + "***");
     console.log("The song information for "+ input + " is: "); 
 
     data.tracks.items.forEach(function(element, num){
-      console.log(num+1 +".");
-      console.log("Track Name: " + element.name);
+      
 
       var artists = element.artists.map(function(artist){
         return artist.name;
       });
 
-      console.log("Artist/Artists: " + artists.join(", "));
-      console.log("Album: " + element.album.name); 
-      console.log("Preview URL: " + element.preview_url);
-      console.log();
+      var songArray = [num+1 +".", 
+      "Track Name: " + element.name,
+      "Artist/Artists: " + artists.join(", "),
+      "Album: " + element.album.name,
+      "Preview URL: " + element.preview_url,
+      "\n"]
+      
+      songArray.forEach(function(x){
+        console.log(x);
+        addToLog(x);
+      })
+
 
     })
       
@@ -140,6 +163,10 @@ function spotifyThisSong(){
 
 // movie-this
 function movieThis(){
+  if(input === undefined){
+    console.log("\nFor better results try entering a movie in 'quotes' after the command. But for now view the results for 'Mr. Nobody'\n");
+    input = "Mr. Nobody";
+  }
 
   var movieQueryURL = "http://www.omdbapi.com/?t=" + input +"&y=&plot=short&apikey=trilogy"
 
@@ -147,9 +174,11 @@ function movieThis(){
 axios.get(movieQueryURL).then(
   function(response) {
 
+    
     addToLog("\n\n***movie-this: " + input + "***");
-    var movieArray = ["\nThe movie information for "+ input + " is: ",
-    "\nTitle: " + response.data.Title + " ", "Year: " +response.data.Year + " ",
+    console.log("The movie information for "+ input + " is: ");
+
+    var movieArray = ["\nTitle: " + response.data.Title + " ", "Year: " +response.data.Year + " ",
     "IMDB rating: " + response.data.imdbRating + " ", response.data.Ratings[1].Source +" rating: "+response.data.Ratings[1].Value + " ",
     "Country: " + response.data.Country + " ",
     "Language: " + response.data.Language + " ", "Plot: " + response.data.Plot + " ",
@@ -212,6 +241,5 @@ function addToLog(x){
     if (err) {
       return console.log(err);
     }
-
   });
 }
