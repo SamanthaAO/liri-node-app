@@ -85,14 +85,6 @@ response.data.forEach(function(element, num){
   "Date: " + moment(element.datetime).format("MM/DD/YYYY") + " ",
   "\n");
 
- 
-
-  //concertArray.forEach(function(x){
-    // x=x+ " \n";
-    
-  //})
-
-
 })
 
 console.log(concertArray.join(" \n"));
@@ -100,7 +92,7 @@ addToLog(concertArray.join(" \n"));
    
     
   })
-  .catch(function(error) {
+  .catch(function (error) {
     if (error.response) {
         // The request was made and the server responded with a status code
         // that falls out of the range of 2xx
