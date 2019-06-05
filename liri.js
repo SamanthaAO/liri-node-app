@@ -50,10 +50,10 @@ callSwitch();
 
 //displays instructions
 function instructions(){
-  console.log("Welcome the LIRI!!!!!!! To get started type one of the following commands followed by a space and then your chosen media surrounded by quotes.");
+  console.log("\n\n\nWelcome the LIRI!!!!!!! To get started type one of the following commands followed by a space and then your chosen media surrounded by quotes.");
   console.log("\n *** concert-this 'Band Name' ***\n Will display the venue, location, and date of upcoming shows for the band that you have entered \n");
   console.log("\n *** spotify-this-song 'Song Title' ***\n Will display the name of the song you entered along with artists that have written a song by that name, the album that song was on, and a preview URL of the song.\n");
-  console.log("\n *** movie-this 'Movie Title' ***\n Will display the anme of the movie that you entered, the year it was made, the IMDB and Rotten Tomato ratings,  the country and language it was made in, and the characters, and plot.\n");
+  console.log("\n *** movie-this 'Movie Title' ***\n Will display the name of the movie that you entered, the year it was made, the IMDB and Rotten Tomato ratings,  the country and language it was made in, and the characters, and plot.\n");
   console.log("\n *** do-what-it-says ***\n Will display a random command with a random media type.\n")
 }
 
@@ -74,21 +74,30 @@ function concertThis(){
     addToLog("\n\n***concert-this: " + input + "***");
     console.log("The concert information for "+ input + " is: "); 
     //console.log(response.data);
+    var x = "";
+    var concertArray =[];
+
 response.data.forEach(function(element, num){
 
-  var concertArray = [num+1 +".",
+  concertArray.push(num+1 +".",
   "Venue: " + element.venue.name + " ",
   "Location: " + element.venue.city +", "+ element.venue.country + " ",
   "Date: " + moment(element.datetime).format("MM/DD/YYYY") + " ",
-  "\n"]
+  "\n");
 
+ 
 
-  concertArray.forEach(function(x){
-    console.log(x);
-    addToLog(x);
-  })
+  //concertArray.forEach(function(x){
+    // x=x+ " \n";
+    
+  //})
+
 
 })
+
+console.log(concertArray.join(" \n"));
+addToLog(concertArray.join(" \n"));
+   
     
   })
   .catch(function(error) {
