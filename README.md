@@ -9,7 +9,9 @@ SPOTIFY_ID=your-spotify-id
 SPOTIFY_SECRET=your-spotify-secret
 ```
 
-Once you have your .env file saved with the other files I have provided here you are going to want to have your terminal inside of this file and run: node liri.js instructions to vieew the instructions on how the program works. An example of this can be viewed below. 
+Replace your-spotify-id and your-spotify-secret with your spotify id and secret. Also, dont forget to npm instal the packages needed.
+
+Once you have your .env file saved with the other files I have provided here you are going to want to have your terminal inside of this file and run: node liri.js instructions to view the instructions on how the program works. An example of this can be viewed below. 
 
 ![instructions info](images/instructions.png)
 
