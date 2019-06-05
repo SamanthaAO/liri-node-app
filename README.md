@@ -32,10 +32,6 @@ Inputs entered after the spotify-this-song command are run throgh the spotify ap
 The results displayed for this are chosen at random from the random.txt file, and then run through the appropriate api.
 ![do-what-it-says info](images/do-what-it-says.png)
 
-
-<<<<<<< HEAD
+## log.txt
 All inputs and data feed back to the user in the terminal are also saved to the log.txt file. 
-=======
-All inputs and data feed back to the user in the terminal are also saved to the log.txt file. 
-
->>>>>>> da046ee791ef28091221872e45630ca9722a398f
+![log info](images/log.png)
