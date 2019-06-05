@@ -195,3 +195,84 @@ Location: Denver, United States
 13.Venue: State Farm Stadium Location: Glendale, United States Date: 08/26/2019 
 14.9.Location: Miami Gardens, United States Date: 08/31/2019 
 Date: 08/22/2019 Venue: Broncos Stadium at Mile High Venue: Hard Rock Stadium 
+
+***do-what-it-says***
+
+***spotify-this-song: "I Want it That Way"***Artist/Artists: Backstreet Boys Track Name: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=ce1fa9af2c7c4d88950f95094044676f Album: The Hits--Chapter One 
+
+***movie-this: the matrix***
+Title: The Matrix Country: USA Language: English Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers. Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving 
+Rotten Tomatoes rating: 88% Year: 1999 IMDB rating: 8.7 
+
+***spotify-this-song: teenage dirtbag***Track Name: Teenage DirtbagArtist/Artists: Wheatus Album: Songs From Dawson's Creek, Vol. II Preview URL: https://p.scdn.co/mp3-preview/197748ca9d6edab195e1228030b0a2a9f5c46b05?cid=ce1fa9af2c7c4d88950f95094044676f 
+
+
+***spotify-this-song: teenage dirtbag nirvana***
+
+***spotify-this-song: teenage dirtbag wheatus***Track Name: Teenage DirtbagArtist/Artists: Wheatus Album: Songs From Dawson's Creek, Vol. II Preview URL: https://p.scdn.co/mp3-preview/197748ca9d6edab195e1228030b0a2a9f5c46b05?cid=ce1fa9af2c7c4d88950f95094044676f 
+
+
+***concert-this: maroon 5***1.
+2.Venue: Tauron Arena Location: Kraków, Poland Date: 06/06/2019 
+3.Venue: Wembley Stadium Location: Wembley, United Kingdom Date: 06/08/2019 
+4.Venue: Ziggo Dome Location: Amsterdam, Netherlands Date: 06/10/2019 
+5.Venue: Accorhotels Arena Location: Paris, France Date: 06/11/2019 
+6.Venue: Coca-Cola Arena Location: Dubai, United Arab Emirates Date: 06/14/2019 
+7.Venue: Villa Mix Location: Sao Paulo, Brazil Date: 07/06/2019 
+8.Venue: Curacao North Sea Jazz Festival Venue: O2 Arena Date: 08/31/2019 
+Location: Curacao, Netherlands Antilles Location: Prague, Czech Republic Date: 06/05/2019 
+
+***concert-this: maroon 5***1.
+2.Venue: Tauron Arena Location: Kraków, Poland Date: 06/06/2019 
+3.Venue: Wembley Stadium Location: Wembley, United Kingdom Date: 06/08/2019 
+4.Venue: Ziggo Dome Location: Amsterdam, Netherlands Date: 06/10/2019 
+5.Venue: Accorhotels Arena Location: Paris, France Date: 06/11/2019 
+6.Venue: Coca-Cola Arena Location: Dubai, United Arab Emirates Date: 06/14/2019 
+7.Venue: Villa Mix Location: Sao Paulo, Brazil Date: 07/06/2019 
+8.Venue: Curacao North Sea Jazz Festival Location: Curacao, Netherlands Antilles Date: 08/31/2019 
+Venue: O2 Arena Location: Prague, Czech Republic Date: 06/05/2019 
+
+***spotify-this-song: candle in the wind***Track Name: Candle In The Wind - Remastered 2014Artist/Artists: Elton John Album: Goodbye Yellow Brick Road (Remastered / Deluxe Edition) Preview URL: null 
+
+
+***concert-this: maroon 5***Date: 06/05/2019 
+2.Venue: Tauron Arena Location: Kraków, Poland Date: 06/06/2019 
+3.Venue: Wembley Stadium Location: Wembley, United Kingdom Date: 06/08/2019 
+4.Venue: Ziggo Dome Location: Prague, Czech Republic Date: 06/10/2019 
+5.Venue: Accorhotels Arena Venue: O2 Arena Date: 06/11/2019 
+6.Venue: Coca-Cola Arena 1.Location: Paris, France Location: Amsterdam, Netherlands Location: Dubai, United Arab Emirates Venue: Villa Mix Location: Sao Paulo, Brazil Date: 07/06/2019 
+8.Venue: Curacao North Sea Jazz Festival Location: Curacao, Netherlands Antilles Date: 08/31/2019 
+Date: 06/14/2019 
+7.
+
+***spotify-this-song: candle in the wind***Track Name: Candle In The Wind - Remastered 2014Artist/Artists: Elton John Album: Goodbye Yellow Brick Road (Remastered / Deluxe Edition) 
+Preview URL: null 
+
+***spotify-this-song: all the small things***Track Name: All The Small ThingsAlbum: Enema Of The State Preview URL: null Artist/Artists: blink-182 
+
+
+***spotify-this-song: We are the champions***Track Name: We Are The Champions - Remastered 2011Album: News Of The World (Deluxe Remastered Version) Preview URL: null 
+Artist/Artists: Queen 
+
+***spotify-this-song: thriftshop***Artist/Artists: Suprien Album: Twingo EP Preview URL: https://p.scdn.co/mp3-preview/3e36cded9b335d66da0bf9f30924e35324ea26c3?cid=ce1fa9af2c7c4d88950f95094044676f Track Name: Thriftshop
+
+
+***spotify-this-song: american pie***Track Name: American PiePreview URL: null 
+Artist/Artists: Don McLean Album: The Best Of Don McLean 
+
+***spotify-this-song: girl***Track Name: Act Up
+Album: Girl Code Preview URL: null Artist/Artists: City Girls 
+
+***spotify-this-song: your song***Track Name: Your SongArtist/Artists: Elton John Album: Elton John Preview URL: null 
+
+
+***movie-this: the matrix***Year: 1999 
+Title: The Matrix IMDB rating: 8.7 Rotten Tomatoes rating: 88% Country: USA Language: English Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers. Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving 
+
+
+***do-what-it-says***
+
+***movie-this: "Princess Bride"***IMDB rating: 8.1 Country: USA Language: English Plot: While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love. Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest 
+Rotten Tomatoes rating: 97% Year: 1987 
+Title: The Princess Bride 
