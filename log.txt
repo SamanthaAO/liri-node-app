@@ -61,3 +61,433 @@ Language: English
 Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.  
 Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving  
 
+
+
+
+***concert-this: maroon 5***
+1. 
+Venue: O2 Arena  
+Location: Prague, Czech Republic  
+Date: 06/05/2019  
+
+ 
+2. 
+Venue: Tauron Arena  
+Location: Kraków, Poland  
+Date: 06/06/2019  
+
+ 
+3. 
+Venue: Wembley Stadium  
+Location: Wembley, United Kingdom  
+Date: 06/08/2019  
+
+ 
+4. 
+Venue: Ziggo Dome  
+Location: Amsterdam, Netherlands  
+Date: 06/10/2019  
+
+ 
+5. 
+Venue: Accorhotels Arena  
+Location: Paris, France  
+Date: 06/11/2019  
+
+ 
+6. 
+Venue: Coca-Cola Arena  
+Location: Dubai, United Arab Emirates  
+Date: 06/14/2019  
+
+ 
+7. 
+Venue: Villa Mix  
+Location: Sao Paulo, Brazil  
+Date: 07/06/2019  
+
+ 
+8. 
+Venue: Curacao North Sea Jazz Festival  
+Location: Curacao, Netherlands Antilles  
+Date: 08/31/2019  
+
+
+
+
+***movie-this: princess bride***
+
+Title: The Princess Bride  
+Year: 1987  
+IMDB rating: 8.1  
+Rotten Tomatoes rating: 97%  
+Country: USA  
+Language: English  
+Plot: While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love.  
+Actors: Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest  
+
+
+
+
+***spotify-this-song: teenage dirtbag***
+Track Name: Teenage Dirtbag 
+Artist/Artists: Wheatus  
+Album: Songs From Dawson's Creek, Vol. II  
+Preview URL: https://p.scdn.co/mp3-preview/197748ca9d6edab195e1228030b0a2a9f5c46b05?cid=ce1fa9af2c7c4d88950f95094044676f  
+
+
+
+
+***do-what-it-says***
+
+
+***spotify-this-song: "I Want it That Way"***
+Track Name: I Want It That Way 
+Artist/Artists: Backstreet Boys  
+Album: The Hits--Chapter One  
+Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=ce1fa9af2c7c4d88950f95094044676f  
+
+
+
+
+***spotify-this-song: The Sign ace of base***
+Track Name: The Sign 
+Artist/Artists: Ace of Base  
+Album: The Sign (US Album) [Remastered]  
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=ce1fa9af2c7c4d88950f95094044676f  
+
+
+
+
+***movie-this: Mr. Nobody***
+
+Title: Mr. Nobody  
+Year: 2009  
+IMDB rating: 7.8  
+Rotten Tomatoes rating: 67%  
+Country: Belgium, Germany, Canada, France, USA, UK  
+Language: English, Mohawk  
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.  
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham  
+
+
+
+
+***concert-this: Ariana Grande***
+1. 
+Venue: United Center  
+Location: Chicago, United States  
+Date: 06/04/2019  
+
+ 
+2. 
+Venue: United Center  
+Location: Chicago, United States  
+Date: 06/05/2019  
+
+ 
+3. 
+Venue: Bridgestone Arena  
+Location: Nashville, United States  
+Date: 06/07/2019  
+
+ 
+4. 
+Venue: State Farm Arena  
+Location: Atlanta, United States  
+Date: 06/08/2019  
+
+ 
+5. 
+Venue: Spectrum Center  
+Location: Charlotte, United States  
+Date: 06/10/2019  
+
+ 
+6. 
+Venue: PPG Paints Arena  
+Location: Pittsburgh, United States  
+Date: 06/12/2019  
+
+ 
+7. 
+Venue: Barclays Center  
+Location: Brooklyn, United States  
+Date: 06/14/2019  
+
+ 
+8. 
+Venue: Barclays Center  
+Location: Brooklyn, United States  
+Date: 06/15/2019  
+
+ 
+9. 
+Venue: Madison Square Garden  
+Location: New York, United States  
+Date: 06/18/2019  
+
+ 
+10. 
+Venue: Madison Square Garden  
+Location: New York, United States  
+Date: 06/19/2019  
+
+ 
+11. 
+Venue: Capital One Arena  
+Location: Washington, United States  
+Date: 06/21/2019  
+
+ 
+12. 
+Venue: TD Garden  
+Location: Boston, United States  
+Date: 06/22/2019  
+
+ 
+13. 
+Venue: Wells Fargo Center  
+Location: Philadelphia, United States  
+Date: 06/24/2019  
+
+ 
+14. 
+Venue: Scotiabank Arena  
+Location: Toronto, Canada  
+Date: 06/26/2019  
+
+ 
+15. 
+Venue: Bankers Life Fieldhouse  
+Location: Indianapolis, United States  
+Date: 06/29/2019  
+
+ 
+16. 
+Venue: Schottenstein Center  
+Location: Columbus, United States  
+Date: 07/01/2019  
+
+ 
+17. 
+Venue: Fiserv Forum  
+Location: Milwaukee, United States  
+Date: 07/05/2019  
+
+ 
+18. 
+Venue: Enterprise Center  
+Location: Saint Louis, United States  
+Date: 07/06/2019  
+
+ 
+19. 
+Venue: Xcel Energy Center  
+Location: St Paul, United States  
+Date: 07/08/2019  
+
+ 
+20. 
+Venue: Pepsi Center  
+Location: Denver, United States  
+Date: 07/11/2019  
+
+ 
+21. 
+Venue: Vivint Smart Home Arena  
+Location: Salt Lake City, United States  
+Date: 07/13/2019  
+
+ 
+22. 
+Venue: Grant Park  
+Location: Chicago, United States  
+Date: 08/03/2019  
+
+ 
+23. 
+Venue: Lollapalooza  
+Location: Chicago, United States  
+Date: 08/04/2019  
+
+ 
+24. 
+Venue: The O2  
+Location: London, United Kingdom  
+Date: 08/17/2019  
+
+ 
+25. 
+Venue: The O2  
+Location: London, United Kingdom  
+Date: 08/19/2019  
+
+ 
+26. 
+Venue: The O2  
+Location: London, United Kingdom  
+Date: 08/20/2019  
+
+ 
+27. 
+Venue: Ziggo Dome  
+Location: Amsterdam, Netherlands  
+Date: 08/23/2019  
+
+ 
+28. 
+Venue: Ziggo Dome  
+Location: Amsterdam, Netherlands  
+Date: 08/24/2019  
+
+ 
+29. 
+Venue: Accorhotels Arena  
+Location: Paris, France  
+Date: 08/27/2019  
+
+ 
+30. 
+Venue: Accorhotels Arena  
+Location: Paris, France  
+Date: 08/28/2019  
+
+ 
+31. 
+Venue: Antwerps Sportpaleis  
+Location: Antwerpen, Belgium  
+Date: 08/30/2019  
+
+ 
+32. 
+Venue: Lanxess Arena  
+Location: Köln, Germany  
+Date: 09/01/2019  
+
+ 
+33. 
+Venue: Wiener Stadthalle  
+Location: Vienna, Austria  
+Date: 09/03/2019  
+
+ 
+34. 
+Venue: Barclaycard Arena Hamburg  
+Location: Hamburg, Germany  
+Date: 09/05/2019  
+
+ 
+35. 
+Venue: O2 Arena  
+Location: Prague, Czech Republic  
+Date: 09/08/2019  
+
+ 
+36. 
+Venue: Tauron Arena  
+Location: Kraków, Poland  
+Date: 09/09/2019  
+
+ 
+37. 
+Venue: Ziggo Dome  
+Location: Amsterdam, Netherlands  
+Date: 09/11/2019  
+
+ 
+38. 
+Venue: Arena Birmingham  
+Location: Birmingham, United Kingdom  
+Date: 09/14/2019  
+
+ 
+39. 
+Venue: Arena Birmingham  
+Location: Birmingham, United Kingdom  
+Date: 09/15/2019  
+
+ 
+40. 
+Venue: SSE Hydro  
+Location: Glasgow, United Kingdom  
+Date: 09/17/2019  
+
+ 
+41. 
+Venue: FlyDSA Arena  
+Location: Sheffield, United Kingdom  
+Date: 09/19/2019  
+
+ 
+42. 
+Venue: 3Arena  
+Location: Dublin, Ireland  
+Date: 09/22/2019  
+
+ 
+43. 
+Venue: 3Arena  
+Location: Dublin, Ireland  
+Date: 09/23/2019  
+
+ 
+44. 
+Venue: 3Arena  
+Location: Dublin, Ireland  
+Date: 09/25/2019  
+
+ 
+45. 
+Venue: Barclaycard Arena Hamburg  
+Location: Hamburg, Germany  
+Date: 09/28/2019  
+
+ 
+46. 
+Venue: Royal Arena  
+Location: Copenhagen, Denmark  
+Date: 10/01/2019  
+
+ 
+47. 
+Venue: Telenor Arena  
+Location: Oslo, Norway  
+Date: 10/03/2019  
+
+ 
+48. 
+Venue: Hartwall Arena  
+Location: Helsinki, Finland  
+Date: 10/05/2019  
+
+ 
+49. 
+Venue: Ericsson Globe  
+Location: Stockholm, Sweden  
+Date: 10/07/2019  
+
+ 
+50. 
+Venue: Mercedes-Benz Arena  
+Location: Berlin-altglienicke, Germany  
+Date: 10/10/2019  
+
+ 
+51. 
+Venue: Hallenstadion  
+Location: Zürich, Switzerland  
+Date: 10/13/2019  
+
+ 
+52. 
+Venue: Amalie Arena  
+Location: Tampa, United States  
+Date: 11/24/2019  
+
+ 
+53. 
+Venue: Amway Center  
+Location: Orlando, United States  
+Date: 11/25/2019  
+

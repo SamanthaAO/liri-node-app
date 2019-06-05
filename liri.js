@@ -62,6 +62,8 @@ function instructions() {
 
 // concert-this
 function concertThis() {
+
+  //creates input if user does nto enter one and tells user to enter input in the future
   if (input === undefined) {
     console.log("For better results try entering an artist in 'quotes' after the command. But for now view the results for 'Ariana Grande'")
     input = "Ariana Grande"
@@ -71,6 +73,7 @@ function concertThis() {
 
   axios.get(concertQueryURL).then(
     function (response) {
+      //initial message
       addToLog("\n\n***concert-this: " + input + "***");
       console.log("The concert information for " + input + " is: ");
       
@@ -87,6 +90,7 @@ function concertThis() {
 
       })
 
+      //outputs message to console and log.txt for each response in the array for each concert
       console.log(concertArray.join(" \n"));
       addToLog(concertArray.join(" \n"));
 
@@ -124,12 +128,13 @@ function spotifyThisSong() {
     input = "The Sign ace of base";
   }
 
-
+//searches for track with limit 1 in spotify api
   spotify.search({ type: 'track', query: input, limit: 1 }, function (err, data) {
     if (err) {
       return console.log('Error occurred: ' + err);
     }
 
+    //initial message
     addToLog("\n\n***spotify-this-song: " + input + "***");
     console.log("\nThe song information for " + input + " is: ");
 
@@ -148,9 +153,12 @@ function spotifyThisSong() {
         "\n");
     })
 
-  });
+    //outputs message to console and log.txt for each response in the array
   console.log(songArray.join(" \n"));
   addToLog(songArray.join(" \n"));
+  
+  });
+  
   
 }
 
@@ -168,7 +176,7 @@ function movieThis() {
   axios.get(movieQueryURL).then(
     function (response) {
 
-
+  //initial message
       addToLog("\n\n***movie-this: " + input + "***");
       console.log("The movie information for " + input + " is: ");
 
@@ -181,6 +189,7 @@ function movieThis() {
       "Actors: " + response.data.Actors + " ",
         "\n")
 
+//outputs message to console and log.txt for each response in the array
         console.log(movieArray.join(" \n"));
         addToLog(movieArray.join(" \n"));
     
@@ -217,16 +226,23 @@ function doWhatItSays() {
     if (err) {
       return console.log(err);
     }
+
+    //splits text file at the , and puts into an array to get length
     data = data.split(",");
+
+    //takes the length of data and choses random value that is half because the first have of the responses is the actions
     var randomNum = Math.floor(Math.random() * Math.floor(data.length / 2))
+
+    //assigns actoin at the position of the random number
     action = data[randomNum].trim();
+
+    //assigns the input that is paired to the action in random file. 
     input = data[randomNum + data.length / 2].trim();
     addToLog("\n\n***do-what-it-says***");
 
+    //calls the switch so that it can be run with the function assigned to the action. 
     callSwitch();
 
-
-    //create object that is array within arrays of random items and then have function call random arrays
   });
 }
 
