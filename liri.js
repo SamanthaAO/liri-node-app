@@ -73,7 +73,7 @@ function concertThis() {
     function (response) {
       addToLog("\n\n***concert-this: " + input + "***");
       console.log("The concert information for " + input + " is: ");
-      //console.log(response.data);
+      
       
       var concertArray = [];
 
@@ -148,11 +148,9 @@ function spotifyThisSong() {
         "\n");
     })
 
-    console.log(songArray.join(" \n"));
-    addToLog(songArray.join(" \n"));
-
   });
-
+  console.log(songArray.join(" \n"));
+  addToLog(songArray.join(" \n"));
   
 }
 
@@ -174,17 +172,18 @@ function movieThis() {
       addToLog("\n\n***movie-this: " + input + "***");
       console.log("The movie information for " + input + " is: ");
 
-      var movieArray = ["\nTitle: " + response.data.Title + " ", "Year: " + response.data.Year + " ",
+      var movieArray =[];
+
+      movieArray.push("\nTitle: " + response.data.Title + " ", "Year: " + response.data.Year + " ",
       "IMDB rating: " + response.data.imdbRating + " ", response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value + " ",
       "Country: " + response.data.Country + " ",
       "Language: " + response.data.Language + " ", "Plot: " + response.data.Plot + " ",
       "Actors: " + response.data.Actors + " ",
-        "\n"]
+        "\n")
 
-      movieArray.forEach(function (x) {
-        console.log(x);
-        addToLog(x);
-      })
+        console.log(movieArray.join(" \n"));
+        addToLog(movieArray.join(" \n"));
+    
 
     })
     .catch(function (error) {
